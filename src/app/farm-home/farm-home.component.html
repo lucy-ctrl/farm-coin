@@ -1,0 +1,9 @@
+<h1>My farm animals</h1>
+<div class="animals-dash">
+    <ul>
+        <li *ngFor="let animal of animals;">
+            {{animal.name}}
+            <img src={{animal.imagefile}}>
+        </li>
+    </ul>
+</div>

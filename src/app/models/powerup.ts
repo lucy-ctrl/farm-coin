@@ -1,4 +1,6 @@
-export interface powerup{
+export interface Powerup{
     id: number,
-    name: string
+    name: string,
+    produceBoostRate: number,
+    isActive: boolean
 }
